@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: Quicksand;
+	}
+
+.jumbotron {
+	font-size: 1.6em;
+	background: url("https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/11043331_1008775282486535_3213669276426635091_o.jpg?oh=83d6da5eee238ef709a9169fafc2c548&oe=5A841D8F") center center no-repeat;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	}
+
+.jumbotron h1, .jumbotron h2 {
+	background-color: black;
+	padding: 3px 10px 5px 150px;
+	letter-spacing: 5px;
+	display: inline-block;
+	font-weight: 400;
+	color: white;
+}
+
+.jumbotron h2 {
+	margin-top: 15px;
+}
+
+.title {
+	margin-top: 90px;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	}
+
+.container img {
+	height: 300px;
+	margin: 0 auto;
+	overflow: wrap;
+	box-shadow: 1px 1px 3px #999;
+	margin: 5px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+}
+
+.social {
+	margin: 0 auto;
+	height: 90px;
+	margin: 0 auto;
+	width: 60%;
+	line-height: 75%;
+	}
+
+.social p {
+	display: inline-block;
+	margin-top: 4%;
+	font-size: 22px;
+}
+
+i {
+	color: black;
+	padding: 0 15px;
+	margin-top: 15px;
+	display: inline-block;
+	float: right;
+}
+
+.fa-facebook-square:hover {
+		border-bottom: 3px solid #3b5998;
+		color: #3b5998;
+		transition: .3s;
+		}
+
+.fa-instagram:hover {
+	border-bottom: 3px solid #fd1d1d;
+	color: orange;
+	transition: .3s;
+	background: -webkit-linear-gradient(#833ab4, #fd1d1d, #fcb045);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.address {
+	margin: 0 auto;
+	position: relative;
+	width: 60%;
+	padding: 25px;
+}
+
+footer {
+	font-size: 0.8em;
+	background: black;
+	color: white;
+}
+

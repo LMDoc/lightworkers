@@ -33,41 +33,41 @@ html, body {
 }
 
 .container {
-	width: 70%;
-	margin: 0 auto;
-	display: block;
 	text-align: center;
+	width: 70%;
+	margin: 0 auto .5% auto;
+	padding: .5%;
 	}
 
 .container img {
 	height: 300px;
-	margin: 0 auto;
+	width: 300px;
+	margin: 0 .25%;
 	overflow: wrap;
-	box-shadow: 1px 1px 3px #999;
-	margin: 5px;
-	box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
-}
-
-.social {
-	margin: 0 auto;
-	height: 90px;
-	margin: 0 auto;
-	width: 60%;
-	line-height: 75%;
+	border: 1px solid lightgrey;
 	}
 
-.social p {
-	display: inline-block;
-	margin-top: 4%;
-	font-size: 22px;
+.container img:hover { 
+	border: 1px solid grey;
+}
+
+#social {
+	height: 150px;
+	}
+
+#social h3 {
+	margin-top: 2%;
 }
 
 i {
 	color: black;
-	padding: 0 15px;
-	margin-top: 15px;
+	padding: 0 10px;
 	display: inline-block;
-	float: right;
+}
+
+.social-btns {
+	margin: 3% auto;
+	justify-content: center;
 }
 
 .fa-facebook-square:hover {
@@ -98,3 +98,28 @@ footer {
 	color: white;
 }
 
+@media only screen and (max-width : 768px) {
+	h1, h2 {
+		font-size: 0.8em;
+	}
+	.social-btns {
+		margin: 3% auto;
+	}
+	.social p {
+		font-size: 0.6em;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width : 479px) {
+		.jumbotron h1, .jumbotron h2 {
+		font-size: 0.6em;
+		padding: 3px 10px 5px 70px;
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+	}
+	.jumbotron {
+		height: 250px;
+	}
+}

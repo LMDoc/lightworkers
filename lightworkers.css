@@ -7,9 +7,18 @@ html, body {
 	font-family: Quicksand;
 	}
 
+h2 > a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background: black;
+	border: 1px black solid;
+	border-radius: 50px;
+}
+
 .jumbotron {
 	font-size: 1.6em;
-	background: url("https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/11043331_1008775282486535_3213669276426635091_o.jpg?oh=83d6da5eee238ef709a9169fafc2c548&oe=5A841D8F") center center no-repeat;
+	background: url("./images/header.png") center center no-repeat;
 	background-size: cover;
 	height: 400px;
 	display: flex;
